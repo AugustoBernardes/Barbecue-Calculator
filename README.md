@@ -12,4 +12,4 @@ I used this values to calculate the avarage
 
 #Exemple
 
-![Design previa] (./design/previa.gif)
+![] (design/previa.gif)
