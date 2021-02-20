@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    background-color:rgb(228, 213, 213);
+}
+
+/* Here is the section of the site */
+section{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+
+/* Img Container */
+.container-img{
+    margin-left: 8%;
+    width: 60%;
+}
+
+img{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 40px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.text{
+    margin-top: 10px;
+    margin-right: 15px;
+   
+}
+
+
+
+
+/* Calculator container */
+
+.container{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 50%;
+    max-width: 350px;
+    height:400px;
+    float: right;
+    margin: auto;
+    margin-right: 20px;
+    background-color: rgb(119, 112, 253);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+/* Display block , we use when we want the object use all the space at the line */
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+/* Changing the button style */
+button{
+    margin-left: 35%;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(18,18,18) ;
+    color: white;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color:white;
+    color: rgb(18,18,18) ;
+}
+
+/* Result text */
+
+#result{
+    font-size: 1.2rem;
+    margin-top: 35px;
+   text-align: center;
+}
+
+.credit{
+    margin-top: 7px;
+    font-size: 13px;
+    text-align: center;   
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(228, 213, 213);
+}
+
+@media screen and (max-width: 800px){
+
+    section{
+        flex-direction: column;
+        margin-left: -15px;
+       
+    }
+
+
+    .container-img{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+
+
+    .container{
+        margin: auto;
+        text-align: center;
+
+    }
+
+    h1,button{
+        margin-left: -5px;
+    }
+}
+
