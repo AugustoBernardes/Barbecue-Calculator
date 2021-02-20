@@ -12,4 +12,4 @@ I used this values to calculate the avarage
 
 #Exemple
 
-![Design previa] (./design/Animated GIF-original.mp4)
+![Design previa] (./design/previa.gif)
